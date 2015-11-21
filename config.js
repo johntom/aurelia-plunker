@@ -11,6 +11,7 @@ System.config({
   },
 
   map: {
+    "Dogfalo/materialize": "github:Dogfalo/materialize@0.97.0",
     "aurelia-animator-css": "npm:aurelia-animator-css@1.0.0-beta.1.0.1",
     "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.0.1",
     "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-beta.1",
@@ -44,12 +45,16 @@ System.config({
     "clean-css": "npm:clean-css@3.4.8",
     "core-js": "npm:core-js@1.2.6",
     "css": "github:systemjs/plugin-css@0.1.19",
+    "dogfalo/materialize": "github:dogfalo/materialize@0.97.0",
     "fetch": "github:github/fetch@0.10.1",
     "moment": "npm:moment@2.10.6",
     "numeral": "npm:numeral@1.5.3",
-     "Dogfalo/materialize": "github:Dogfalo/materialize@0.97.0",
     "github:Dogfalo/materialize@0.97.0": {
-      "css": "github:systemjs/plugin-css@0.1.199",
+      "css": "github:systemjs/plugin-css@0.1.19",
+      "jquery": "github:components/jquery@2.1.4"
+    },
+    "github:dogfalo/materialize@0.97.0": {
+      "css": "github:systemjs/plugin-css@0.1.19",
       "jquery": "github:components/jquery@2.1.4"
     },
     "github:jspm/nodelibs-assert@0.1.0": {

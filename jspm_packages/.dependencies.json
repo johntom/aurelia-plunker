@@ -326,5 +326,13 @@
     "ieee754": "npm:ieee754@^1.1.4",
     "is-array": "npm:is-array@^1.0.1"
   },
-  "npm:isarray@0.0.1": {}
+  "npm:isarray@0.0.1": {},
+  "github:Dogfalo/materialize@0.97.0": {
+    "jquery": "github:components/jquery",
+    "css": "github:systemjs/plugin-css"
+  },
+  "github:dogfalo/materialize@0.97.0": {
+    "jquery": "github:components/jquery",
+    "css": "github:systemjs/plugin-css"
+  }
 }
