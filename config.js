@@ -47,6 +47,11 @@ System.config({
     "fetch": "github:github/fetch@0.10.1",
     "moment": "npm:moment@2.10.6",
     "numeral": "npm:numeral@1.5.3",
+     "Dogfalo/materialize": "github:Dogfalo/materialize@0.97.0",
+    "github:Dogfalo/materialize@0.97.0": {
+      "css": "github:systemjs/plugin-css@0.1.199",
+      "jquery": "github:components/jquery@2.1.4"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
